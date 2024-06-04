@@ -1,84 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday, Suman!</title>
-<style>
-  body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
-    text-align: center;
-    padding: 50px;
-    color: #fff;
-  }
-  .birthday-message {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    padding: 20px;
-    border-radius: 15px;
-    display: inline-block;
-    margin-top: 20%;
-    border: 2px solid #fff;
-  }
-  h1 {
-    font-size: 2.5em;
-    color: #ffeb3b;
-    text-shadow: 2px 2px 4px #000;
-  }
-  p {
-    font-size: 1.5em;
-    margin: 10px 0;
-    line-height: 1.4;
-  }
-  .photo-section {
-    margin-top: 30px;
-  }
-  img {
-    max-width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  }
-  .image-name {
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #ffeb3b;
-    text-shadow: 1px 1px 3px #000;
-  }
-  .wishing-words {
-    font-size: 1.2em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 20px;
-    animation: typewriter 3s steps(30) infinite;
-  }
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pexels Wallpaper Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="birthday-message">
-  <h1>🎉 Happy Birthday, Suman! 🎉</h1>
-  <p>May your day be filled with laughter,</p>
-  <p>And your heart with joy thereafter.</p>
-  <p>Here's to a bright, healthy, and exciting future!</p>
-</div>
-<div class="photo-section">
-  <img src="IMG.jpg" alt="Suman's Birthday Photo">
-  <p class="image-name">Celebrating Suman</p>
-</div>
-<div class="wishing-words">
-  <p>🌟 May the year ahead sparkle with happiness! 🌟</p>
-  <p>💖 Sending you love on this special occasion! 💖</p>
-  <p>🎂 Enjoy every moment of your birthday! 🎂</p>
-</div>
+    <div class="container">
+        <h1>Pexels Wallpaper Generator</h1>
+        <input type="text" id="search" placeholder="Search for wallpapers">
+        <button id="generate">Generate</button>
+        <div id="wallpaper"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
